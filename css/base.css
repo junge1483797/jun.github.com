@@ -5,10 +5,7 @@ a{text-decoration: none;}
 ol,ul {list-style:none;}
 li{list-style-type:none;}
 input,select {-webkit-appearance:none;outline: none;box-shadow: none;}
-<<<<<<< HEAD
-/*img{display: block;width: 100%;}*/
-=======
->>>>>>> 5ee06d781b2f88ea58d5b2da85e10894b9743fa7
+img{display: block;width: 100%;}
 h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
 address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
 .clearfix{zoom:1;}
