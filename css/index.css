@@ -9,29 +9,26 @@ body {
 	width: 1024px;
 	height: 50px;
 	margin: 0 auto;
-
-	/*background-image: url("../img/navBg.jpg");*/
 	background-position: 0 -62px; 
 }
 
 .section {
 	position: relative;
 	width: 1024px;
-	height: 768px;
-	margin: 0 auto;
+	height: 850px;
+	margin: 30px auto;
 	overflow: hidden;
 	background-image: url("../img/desktop.png");
-
-	/*background-image: url("../img/sectionBg2.png");*/
 	background-size: 1024px;
 
 }
 
 .book {
-	width: 75%;
+	position: absolute;
+	width: 700px;
 	height: 500px;
-	margin-top: 240px;
-	margin-left: 40px;
+	top: 290px;
+	left: 70px;
 	background-image: url("../img/sectionBg2.png");
 	background-size: 100%;
 	overflow: hidden;
@@ -41,20 +38,32 @@ body {
 	text-align: center;
 	margin-top: 30px; 
 	font-size: 30px;
+	font-family: "STXingkai";
 	font-weight: bold;
+}
 
+.bigai {
+	position: absolute;
+	right: 150px;
+	top: 160px;
+	width: 120px;
+}
+.pen {
+	position: absolute;
+	top: 335px;
+	right: 90px;
+	width: 75px;
 }
 .fruit {
 	position: absolute;
 	width: 100px;
 	height: 100px;
-	top: 325px;
-	right: 35px;
+	top: 95px;
+	left: 440px;
 }
 .tea {
 	position: absolute;
-	top: 20px;
-	left: 200px;
-	width: 200px;
-	height: 200px;
+	top: 0;
+	left: 240px;
+	width:300px;
 }
